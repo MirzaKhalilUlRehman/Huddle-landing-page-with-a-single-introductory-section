@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #674bb1;
+    background-image: url(images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    font-family: poppins, sans-serif;
+}
