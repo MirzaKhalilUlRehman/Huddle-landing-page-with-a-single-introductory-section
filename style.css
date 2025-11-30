@@ -1,13 +1,119 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #674bb1;
+    color: white;
     background-image: url(images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
     font-family: poppins, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 50px;
+}
+
+.cta-section {
+    width: 100vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+.contant{
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 85rem;
+    align-self: center;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.details {
+    font-size: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-right: 20px;
+}
+
+.btn {
+    display: flex;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #674bb1;
+    background-color: white;
+    box-shadow: 0px 2px 15px 0px rgb(67, 66, 66);
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    bottom:50px;
+    right: 50px;
+}
+
+.icons {
+    border: 2px solid white;
+    font-size: 10;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons:active{
+    color: #ec52cc;
+    border: 2px solid #ec52cc;
+    cursor: pointer;
+    
+}
+.btn:active{
+    background-color: #ec52cc;
+    color: white;
+    cursor: pointer;
 }
